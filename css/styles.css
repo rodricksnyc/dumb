@@ -1,4 +1,10 @@
 
+h1.green{
+  color:#00843D;
+  font-weight: 600;
+  font-size: 1.7em;
+}
+
 
 .flipTop {
 
@@ -316,6 +322,23 @@ span.heading {
     min-width: 10em;
 
   }
+  .landing{
+    flex-direction: column;
+  }
+  .flipTop {
+    background: #00539f;
+    writing-mode: tb-rl;
+    width: 1px;
+    height: 27px;
+    margin: 0em 1em 0em 1em;
+    opacity: .8;
+}
+
+  .end {
+    position: relative;
+    right: 0em;
+
+  }
 
 }
 
@@ -347,18 +370,39 @@ span.heading {
     margin-bottom: .2em;
   }
   .end {
-    position: absolute;
-    right: 10px;
+    position: relative;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: auto;
     min-width: 0em;
-    margin-left: 4%;
+    margin-left: 0;
   }
   .flipTop {
     height: 33px;
     margin: 0em .75em 0em 1.5em;
   }
+  .landing {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #f8f4ed;
+    margin-bottom: 0em !important;
+    padding-bottom: 0em !important;
+    z-index: 9998;
+    padding: 0em .2em !important;
+}
+.logo {
+    max-width: 8em;
+    min-width: 4em;
+    padding-left: 1em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+.flipTop {
+    height: 33px;
+    margin: 0em 1em 0em 2.4em;
+}
 
 }
